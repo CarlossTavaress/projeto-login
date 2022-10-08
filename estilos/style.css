@@ -82,13 +82,14 @@ div#formulario > p {
 
 form > input[type=submit] {
     display: block;
-    font-size: 1em; 
-    width: 100%;   
+    font-size: 1em;      
     height: 40px;
     background-color: #6B98F2;
     color: white;
     border-radius: 5px;
+    
     cursor: pointer;
+    margin:auto;
 }
 
 form > a.botao {
@@ -96,7 +97,7 @@ form > a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
-    width: 100%;
+    
     height: 40px;
     background-color:#6B98F2;
     color: white;
@@ -115,3 +116,4 @@ form > div.campo {
 div.campo > label {
     display: none;
 }
+
